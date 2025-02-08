@@ -15,7 +15,7 @@ import java.util.Arrays;
 @RestController
 public class RestApiController {
 
-    String authToken = "NqMfUrViGsITc57+aYkrZzWCdbe2SZiGPt6WAMos1c9W76Kd2Q==--b9unxlUSSSVV370p--akuo/dycemjMs1GsmrTqIw==";
+    String authToken = "";
 
     HttpHeaders headers = new HttpHeaders();
     headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
