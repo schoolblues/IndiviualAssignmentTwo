@@ -14,12 +14,6 @@ import java.util.Arrays;
 
 @RestController
 public class RestApiController {
-
-    String authToken = "";
-
-    HttpHeaders headers = new HttpHeaders();
-    headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
-    headers.add("Authorization", "Bearer "+authToken);
     /**
      * Information about a specific mod
      * @param modsName
